@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clase04.FXMLDocumentController">
+   <children>
+      <ComboBox fx:id="cmbCliente" layoutX="10.0" layoutY="14.0" prefHeight="22.0" prefWidth="301.0" />
+      <Button layoutX="232.0" layoutY="60.0" mnemonicParsing="false" onAction="#aceptar" prefHeight="22.0" prefWidth="74.0" text="Button" />
+      <TableView fx:id="tblCliente" layoutX="10.0" layoutY="36.0" prefHeight="163.0" prefWidth="203.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
